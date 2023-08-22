@@ -1,25 +1,25 @@
-# Sumava_analysis
+Sumava_analysis
 
-#This was intended as a practice use case the credits goes to: R.Hladký et al.
+This was intended as a practice use case the credits goes to: R.Hladký et al.
 
-#Main idea was to perform spatial change detection using remote sensing spectral indeces
-#Area of interest was Sumava National Park, with timeline selected between 2013 and 2018.
+Main idea was to perform spatial change detection using remote sensing spectral indeces
+Area of interest was Sumava National Park, with timeline selected between 2013 and 2018.
 ![image](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/e471573b-4b4c-4115-afed-37a6b3ecf7ca)
 credit: https://de.wikipedia.org/wiki/Benutzer:Oligoplectrum
 
-#As a software I used either R Studio or QGIS
+As a software I used either R Studio or QGIS
 
-#Area of interest: NP Sumava
+Area of interest: NP Sumava
 ![Map1](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/4babf9cc-e6e2-427d-80ec-e796c81d0efb)
 
-#1) Input data were Landsat 8 images (2013,2015,2018)
+1) Input data were Landsat 8 images (2013,2015,2018)
 
-#Workflow description:
+Workflow description:
 
-#a) raster clip
-#b) coordinate system selection
-#c) make smaller areas for more detail
-#d) calculate indeces: NDVI, NDMI, TCG, TCW
+a) raster clip
+b) coordinate system selection
+c) make smaller areas for more detail
+d) calculate indeces: NDVI, NDMI, TCG, TCW
 
 
 
