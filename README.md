@@ -10,5 +10,6 @@ credit: https://de.wikipedia.org/wiki/Benutzer:Oligoplectrum
 #As a software I used either R Studio or QGIS
 
 #Area of interest: NP Sumava
+![Map1](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/4babf9cc-e6e2-427d-80ec-e796c81d0efb)
 
 
