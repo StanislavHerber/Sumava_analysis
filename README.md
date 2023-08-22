@@ -1,4 +1,4 @@
-# Sumava_analysis
+# Sumava analysis
 
 This was intended as a practice use case the credits goes to: R.Hladký et al.
 
