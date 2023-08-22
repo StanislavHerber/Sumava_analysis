@@ -1,4 +1,4 @@
-Sumava_analysis
+# Sumava_analysis
 
 This was intended as a practice use case the credits goes to: R.Hladký et al.
 
@@ -71,30 +71,30 @@ st_write(SA1_dist_sf,"results/SA1_dist.shp")
 st_write(SA2_recov_sf,"results/SA2_recov.shp")
 st_write(SA3_non_dist_sf,"results/SA3_non_dist.shp")
 
-# Set the coordinate system of the sf object
+#Set the coordinate system of the sf object
 st_crs(SA1_dist_sf) <- 4326
 st_crs(SA2_recov_sf) <- 4326
 st_crs(SA3_non_dist_sf) <- 4326
 
-# Transform to a projected coordinate system
+#Transform to a projected coordinate system
 point1_sjtsk <- st_transform(SA1_dist_sf, 5514)
 point2_sjtsk <- st_transform(SA2_recov_sf, 5514)
 point3_sjtsk <- st_transform(SA3_non_dist_sf, 5514)
 
-# Create a 60m buffer around the point
+#Create a 60m buffer around the point
 buffer1 <- st_buffer(point1_sjtsk, dist = 60)
 buffer2 <- st_buffer(point2_sjtsk, dist = 60)
 buffer3 <- st_buffer(point3_sjtsk, dist = 60)
 
-# Create a bounding box around the buffer
+#Create a bounding box around the buffer
 bbox1 <- st_as_sfc(st_bbox(buffer1))
 bbox2 <- st_as_sfc(st_bbox(buffer2))
 bbox3 <- st_as_sfc(st_bbox(buffer3))
 
-# Transform back to the original coordinate system
+#Transform back to the original coordinate system
 #bbox1 <- st_transform(bbox1, 4326)
 
-# Export the bounding box as a shapefile
+#Export the bounding box as a shapefile
 st_write(bbox1, "results/SA1_dist_60m.shp")
 st_write(bbox1, "results/SA2_recov_60m.shp")
 st_write(bbox1, "results/SA3_non_dist_60m.shp")
@@ -112,7 +112,7 @@ raster2013_proj <- projectRaster(raster2013,crs = new_crs)
 raster2015_proj <- projectRaster(raster2015,crs = new_crs)
 raster2018_proj <- projectRaster(raster2018,crs = new_crs)
 
-# crop data around border of NP
+#crop data around border of NP
 NPboundary <- st_read("data/hranice_NP/Hranice_NP_sjtsk.shp")
 
 raster2013_proj_clip <- crop(x = raster2013_proj, y = NPboundary)
@@ -166,7 +166,7 @@ library("Lattice")
 cols = colorRampPalette(brewer.pal(4,"BuGn"))
 levelplot(ndvi_stack,layout=c(3,3),col.regions=cols)
                     
-# mean indeces around test sites
+#mean indeces around test sites
 area1 <- read_sf("C:/Users/stand/OneDrive/Plocha/Sumava_project/results/SA1_dist_60m.shp")
 area2 <- read_sf("C:/Users/stand/OneDrive/Plocha/Sumava_project/results/SA2_recov_60m.shp")
 area3 <- read_sf("C:/Users/stand/OneDrive/Plocha/Sumava_project/results/SA3_non_dist_60m.shp")
