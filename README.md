@@ -17,6 +17,9 @@ Area of interest: NP Sumava
 Workflow description:
 
 a) raster clip
+![Map2](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/d1326ff4-ec06-44df-bd52-17ca342836e6)
+
+
 b) coordinate system selection
 c) make smaller areas for more detail
 d) calculate indeces: NDVI, NDMI, TCG, TCW
