@@ -7,4 +7,8 @@
 ![image](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/e471573b-4b4c-4115-afed-37a6b3ecf7ca)
 credit: https://de.wikipedia.org/wiki/Benutzer:Oligoplectrum
 
+#As a software I used either R Studio or QGIS
+
+#Area of interest: NP Sumava
+
 
