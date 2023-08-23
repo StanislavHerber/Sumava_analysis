@@ -21,7 +21,12 @@ a) raster clip
 
 
 b) coordinate system selection
+
 c) make smaller areas for more detail
+- this was achieved by firstly creating three points with provided coordinates
+- then i made 60 m buffer
+- lastly from this buffer i made bounding box, which was used as area of interest
+
 d) calculate indeces: NDVI, NDMI, TCG, TCW
 
 
