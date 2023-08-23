@@ -40,6 +40,8 @@ d) calculate indeces: NDVI, NDMI, TCG, TCW
 
 Normalized Difference Vegetation Index 
 
+![Map5](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/9a4dbaaa-416d-4bc8-bbbc-5e8b1b74649b)
+
 Normalized Difference Moisture Index
 
 Tasseled cap greenness index
