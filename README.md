@@ -34,7 +34,13 @@ Here is a snapshot of the areas
 
 
 d) calculate indeces: NDVI, NDMI, TCG, TCW
+Normalized Difference Vegetation Index 
 
+Normalized Difference Moisture Index
+
+Tasseled cap greenness index
+
+Tasseled cap wetness index
 
 
 
