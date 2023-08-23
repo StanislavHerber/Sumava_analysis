@@ -27,6 +27,10 @@ c) make smaller areas for more detail
 - then i made 60 m buffer
 - lastly from this buffer i made bounding box, which was used as area of interest
 
+Here is a snapshot of the areas
+3 points LAT/LON(13.45196,49.02482,13.52290,48.98473,13.47758,49.04568)
+
+
 d) calculate indeces: NDVI, NDMI, TCG, TCW
 
 
