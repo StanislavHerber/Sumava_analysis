@@ -44,6 +44,8 @@ Normalized Difference Vegetation Index
 
 Normalized Difference Moisture Index
 
+![Map6](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/85557305-a319-4b66-8c82-3908a41543be)
+
 Tasseled cap greenness index
 
 Tasseled cap wetness index
