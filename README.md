@@ -30,6 +30,8 @@ c) make smaller areas for more detail
 Here is a snapshot of the areas
 3 points LAT/LON(13.45196,49.02482,13.52290,48.98473,13.47758,49.04568)
 
+![Map3](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/881b87cb-8d08-4822-b26e-a3c0a2d359b4)
+
 
 d) calculate indeces: NDVI, NDMI, TCG, TCW
 
