@@ -35,7 +35,8 @@ Here is a snapshot of the areas
 
 d) calculate indeces: NDVI, NDMI, TCG, TCW
 
-"C:\Users\stand\OneDrive\Plocha\Sumava_project\Map4.png"
+![Map4](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/f832e642-12ac-430c-9706-7cc157e29ea9)
+
 
 Normalized Difference Vegetation Index 
 
