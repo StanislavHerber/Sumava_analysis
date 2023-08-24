@@ -48,8 +48,11 @@ Normalized Difference Moisture Index
 
 Tasseled cap greenness index
 
+![Map7](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/34595cd5-fc78-4fbe-8a7c-5d635ca3cdbf)
+
 Tasseled cap wetness index
 
+![Map8](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/69089cc8-5dc2-467e-9f37-4ad5666f3a6a)
 
 
 
