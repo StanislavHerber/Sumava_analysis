@@ -59,6 +59,18 @@ using Zonal statistics
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Whole R script:
 #-----------------------------------------#
 #Sumava NP project
