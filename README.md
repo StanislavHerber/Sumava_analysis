@@ -54,6 +54,9 @@ Tasseled cap wetness index
 
 ![Map8](https://github.com/StanislavHerber/Sumava_analysis/assets/134272440/69089cc8-5dc2-467e-9f37-4ad5666f3a6a)
 
+Lastly I calculated mean from all indeces inside my areas of interest to determine the change in indeces
+using Zonal statistics
+
 
 
 Whole R script:
